@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "vektar",
+  "productName": "tauri",
   "version": "0.1.0",
-  "identifier": "com.fatuousnerd.vektar",
+  "identifier": "com.fatuousnerd.tauri",
   "build": {
     "beforeDevCommand": "bun run dev",
     "devUrl": "http://localhost:1420",
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "vektar",
+        "title": "tauri",
         "width": 800,
         "height": 600
       }

@@ -3307,6 +3307,17 @@ checksum = "61c41af27dd6d1e27b1b16b489db798443478cef1f06a660c96db617ba5de3b1"
 
 [[package]]
 name = "tauri"
+version = "0.1.0"
+dependencies = [
+ "serde",
+ "serde_json",
+ "tauri 2.11.2",
+ "tauri-build",
+ "tauri-plugin-opener",
+]
+
+[[package]]
+name = "tauri"
 version = "2.11.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "437404997acf375d85f1177afa7e11bb971f274ed6a7b83a2a3e339015f4cc28"
@@ -3448,7 +3459,7 @@ dependencies = [
  "schemars 0.8.22",
  "serde",
  "serde_json",
- "tauri",
+ "tauri 2.11.2",
  "tauri-plugin",
  "thiserror 2.0.18",
  "url",
@@ -4055,17 +4066,6 @@ dependencies = [
  "js-sys",
  "serde_core",
  "wasm-bindgen",
-]
-
-[[package]]
-name = "vektar"
-version = "0.1.0"
-dependencies = [
- "serde",
- "serde_json",
- "tauri",
- "tauri-build",
- "tauri-plugin-opener",
 ]
 
 [[package]]
